@@ -3,11 +3,11 @@ var fs = require("fs");
 var path = require("path");
 const util = require('util');
 
-var project_path = "/Users/funplus/Documents/workspace/ff-fighting"
+var project_path = "../../"
 var code_dir = path.join(project_path, "frameworks", "runtime-src", "Resources", "localItemResources");
 var scripts = "scripts"
 var code_scripts = path.join(code_dir, scripts);
-var features = ["game", "new_game"]
+var features = ["game", "new_game", "cookhouse", "common_ui", "common", "summon", "tutorial"]
 
 function main()
 {
